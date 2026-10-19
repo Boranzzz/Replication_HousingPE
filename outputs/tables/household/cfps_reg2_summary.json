@@ -1,0 +1,15 @@
+{
+  "age_window": [
+    25,
+    50
+  ],
+  "restrict_measure": "strict = h*(1+h2)",
+  "main_column": "3 (Top 60% Strict, PreschoolAge, full controls)",
+  "n_columns": 16,
+  "main_nobs": 1998,
+  "main_mxp_cell": 67,
+  "outputs": [
+    "/Users/boran/Desktop/Writing_Calibration/Replication_Package/outputs/tables/household/cfps_reg2_column_results.csv",
+    "/Users/boran/Desktop/Writing_Calibration/Replication_Package/outputs/tables/household/cfps_reg2_cell_counts.csv"
+  ]
+}

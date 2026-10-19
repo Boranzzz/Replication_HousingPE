@@ -1,0 +1,13 @@
+﻿moment,definition,n_cities,g,A_r,income_or_wage_ratio,w_u,w_u_over_A_r,strict_cutoff,high_strict_n,ranking_universe
+g_baseline,"Unweighted median of city log income ratios, 51 high-strictness cities",51,0.9518652229495189,0.3860203375509191,2.590537085026232,1.0,2.590537085026232,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+g_mean,"Unweighted arithmetic mean of city log income ratios, same 51 cities",51,0.9200439109016111,0.398501542138311,2.509400577558925,1.0,2.509400577558925,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+g_cfps_coverage,Unweighted median of log income ratios among the 51 cities that are verified 2018 CFPS destinations,24,0.92945933652397,0.39476708882990286,2.533139231449154,1.0,2.533139231449154,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+r_min,Minimum city income ratio,51,,,1.582237074619943,1.0,1.582237074619943,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+r_p25,"25th percentile of city income ratios, linear interpolation",51,,,2.1175815859767,1.0,2.1175815859767,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+r_p50,Median city income ratio. Equals exp(g_baseline) because the sample size is odd.,51,0.9518652229495189,0.3860203375509191,2.590537085026232,1.0,2.590537085026232,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+r_p75,"75th percentile of city income ratios, linear interpolation",51,,,3.0424839142064632,1.0,3.0424839142064632,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+r_max,Maximum city income ratio,51,,,3.992207156580616,1.0,3.992207156580616,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+loo_mean_g_min,Lowest leave-one-out mean of g,50,0.9107579041189663,0.4022192648457673,2.486206125366606,1.0,2.486206125366606,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+loo_mean_g_max,Highest leave-one-out mean of g,50,0.9292679948065898,0.39484263146964343,2.5326545826064955,1.0,2.5326545826064955,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+mean_g_drop_both_tails,Mean of g after dropping the lowest and highest cities,49,0.919980724291748,0.3985267228953189,2.509242022052986,1.0,2.509242022052986,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018
+rural_within_province_span,Maximum within-province range of 2018 rural_income in the income file. Zero means the rural value is province-constant.,31,,,0.0,1.0,0.0,0.7338357829094909,51,all 85 cities in strict.xlsx for 2018

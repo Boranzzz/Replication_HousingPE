@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\caption{Robustness: Excluding Shanghai}
+\label{tab:cfps_reg2_A3}
+\begin{threeparttable}
+\begin{tabular}{lccc}
+\toprule
+ & (1) & (2) & (3) \\
+ & Top 60\% Strict & Top 60\% Strict, drop Shanghai & Top 75\% Strict, drop Shanghai \\
+\midrule
+\multicolumn{4}{l}{\textit{Dependent variable:} OwnHouse} \\
+\midrule
+Migrant ($M$) & -0.241*** & -0.081 & -0.171** \\
+ & (0.066) & (0.065) & (0.086) \\
+PreschoolAge ($P$) & -0.026 & -0.004 & -0.001 \\
+ & (0.023) & (0.023) & (0.025) \\
+$M \times P$ & 0.126** & 0.059 & 0.092 \\
+ & (0.052) & (0.094) & (0.120) \\
+\midrule
+Controls & Yes & Yes & Yes \\
+Drop Shanghai & No & Yes & Yes \\
+City FE / Year FE & Yes & Yes & Yes \\
+Observations & 1,998 & 1,389 & 1,794 \\
+Cities & 22 & 21 & 26 \\
+$M \times P$ cell $N$ & 67 & 31 & 42 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item \textit{Notes:} Column (1) repeats the preferred Top 60\\% Strict specification. Columns (2)--(3) drop Shanghai households. The attenuation after excluding Shanghai indicates that the differential is concentrated in the highest-restriction megacities represented in CFPS. City-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

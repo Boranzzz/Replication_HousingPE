@@ -1,0 +1,11 @@
+{
+  "seed": 20261019,
+  "reps": 9999,
+  "weights": "Rademacher {-1, +1}",
+  "null": "restricted model drops strict_mig",
+  "beta_hat": -0.5041563912695892,
+  "se_analytic": 0.19317245199413505,
+  "p_analytic_normal": 0.00905747118279182,
+  "p_bootstrap_coefficient": 0.1023,
+  "p_bootstrap_t": 0.1179
+}

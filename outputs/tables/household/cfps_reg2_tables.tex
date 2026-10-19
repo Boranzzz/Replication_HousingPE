@@ -1,0 +1,165 @@
+% Auto-generated CFPS Regression 2 tables. Requires booktabs, threeparttable.
+\begin{table}[htbp]
+\centering
+\caption{Household Homeownership and Intergenerational Insurance: CFPS Mechanism Estimates}
+\label{tab:cfps_reg2_main}
+\begin{threeparttable}
+\begin{tabular}{lccccc}
+\toprule
+ & (1) & (2) & (3) & (4) & (5) \\
+ & All cities & Top 75\% Strict & Top 60\% Strict & Top 60\% Strict & Top 60\% Strict \\
+\midrule
+\multicolumn{6}{l}{\textit{Dependent variable:} OwnHouse} \\
+\midrule
+Migrant ($M$) & -0.252*** & -0.264*** & -0.241*** & -0.293*** & -0.246*** \\
+ & (0.056) & (0.057) & (0.066) & (0.054) & (0.049) \\
+Child & -0.015 & -0.017 & -0.026 & -0.047 & -0.045* \\
+ & (0.022) & (0.023) & (0.023) & (0.033) & (0.027) \\
+$M \times$ Child & 0.126** & 0.128** & 0.126** & 0.134*** & 0.084 \\
+ & (0.063) & (0.065) & (0.052) & (0.046) & (0.053) \\
+\midrule
+Child definition & PreschoolAge & PreschoolAge & PreschoolAge & ChildAges 0--15 & SchoolAge \\
+Strict sample & All cities & Top 75\% Strict & Top 60\% Strict & Top 60\% Strict & Top 60\% Strict \\
+Age window & 25--50 & 25--50 & 25--50 & 25--50 & 25--50 \\
+City FE & Yes & Yes & Yes & Yes & Yes \\
+Year FE & Yes & Yes & Yes & Yes & Yes \\
+Controls & Yes & Yes & Yes & Yes & Yes \\
+Observations & 2,724 & 2,403 & 1,998 & 1,998 & 1,998 \\
+Cities & 36 & 27 & 22 & 22 & 22 \\
+$M \times$ Child cell $N$ & 80 & 78 & 67 & 187 & 149 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item \textit{Notes:} Linear probability models. The sample is urban CFPS households in 2014, 2016, and 2018 whose financial respondent is aged 25--50. \textit{OwnHouse} equals one if the household owns (full or partial) title to the current dwelling. \textit{Migrant} equals one if the respondent's hukou is outside the current county/city. Column (1) uses all matched cities; columns (2)--(5) retain cities in the top share of the Part~1 composite restriction index $\mathrm{Strict}=h(1+h_2)$. Child equals PreschoolAge (ages 0--5) in columns (1)--(3), ages 0--15 in column (4), and SchoolAge (6--15) in column (5). Controls include age, gender, years of schooling, marital status, hukou type, household size, and log per-capita income. City-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$. Column (3) is the preferred specification.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Robustness: Stepwise Controls (Top 60\% Strict, PreschoolAge)}
+\label{tab:cfps_reg2_A1}
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+ & (1) & (2) & (3) & (4) \\
+ & FE only & + demographics & + hukou & + all controls \\
+\midrule
+\multicolumn{5}{l}{\textit{Dependent variable:} OwnHouse} \\
+\midrule
+Migrant ($M$) & -0.339*** & -0.276*** & -0.253*** & -0.241*** \\
+ & (0.075) & (0.073) & (0.063) & (0.066) \\
+PreschoolAge ($P$) & -0.048** & 0.025 & 0.029 & -0.026 \\
+ & (0.019) & (0.027) & (0.026) & (0.023) \\
+$M \times P$ & 0.183*** & 0.126** & 0.115** & 0.126** \\
+ & (0.043) & (0.050) & (0.049) & (0.052) \\
+\midrule
+Controls & No & Demographics & Demo.+hukou & Yes \\
+Drop Shanghai & No & No & No & No \\
+City FE / Year FE & Yes & Yes & Yes & Yes \\
+Observations & 2,213 & 2,036 & 2,036 & 1,998 \\
+Cities & 22 & 22 & 22 & 22 \\
+$M \times P$ cell $N$ & 73 & 68 & 68 & 67 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item \textit{Notes:} Same sample as column (3) of Table~\ref{tab:cfps_reg2_main}. Column (1) includes only city and year fixed effects. Column (2) adds age, gender, schooling, and marital status. Column (3) further adds hukou type. Column (4) adds household size and log per-capita income. City-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Robustness: Alternative High-Strict Thresholds}
+\label{tab:cfps_reg2_A2}
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+ & (1) & (2) & (3) & (4) \\
+ & Top 75\% Strict & Top 67\% Strict & Top 60\% Strict & Top 50\% Strict \\
+\midrule
+\multicolumn{5}{l}{\textit{Dependent variable:} OwnHouse} \\
+\midrule
+Migrant ($M$) & -0.264*** & -0.270*** & -0.241*** & -0.252*** \\
+ & (0.057) & (0.057) & (0.066) & (0.057) \\
+PreschoolAge ($P$) & -0.017 & -0.026 & -0.026 & -0.007 \\
+ & (0.023) & (0.022) & (0.023) & (0.030) \\
+$M \times P$ & 0.128** & 0.133*** & 0.126** & 0.116** \\
+ & (0.065) & (0.050) & (0.052) & (0.056) \\
+\midrule
+Controls & Yes & Yes & Yes & Yes \\
+Drop Shanghai & No & No & No & No \\
+City FE / Year FE & Yes & Yes & Yes & Yes \\
+Observations & 2,403 & 2,127 & 1,998 & 1,638 \\
+Cities & 27 & 24 & 22 & 18 \\
+$M \times P$ cell $N$ & 78 & 69 & 67 & 59 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item \textit{Notes:} All columns use PreschoolAge, the age 25--50 window, full controls, and city/year fixed effects. Cities are ranked by mean $\mathrm{Strict}=h(1+h_2)$. City-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Robustness: Excluding Shanghai}
+\label{tab:cfps_reg2_A3}
+\begin{threeparttable}
+\begin{tabular}{lccc}
+\toprule
+ & (1) & (2) & (3) \\
+ & Top 60\% Strict & Top 60\% Strict, drop Shanghai & Top 75\% Strict, drop Shanghai \\
+\midrule
+\multicolumn{4}{l}{\textit{Dependent variable:} OwnHouse} \\
+\midrule
+Migrant ($M$) & -0.241*** & -0.081 & -0.171** \\
+ & (0.066) & (0.065) & (0.086) \\
+PreschoolAge ($P$) & -0.026 & -0.004 & -0.001 \\
+ & (0.023) & (0.023) & (0.025) \\
+$M \times P$ & 0.126** & 0.059 & 0.092 \\
+ & (0.052) & (0.094) & (0.120) \\
+\midrule
+Controls & Yes & Yes & Yes \\
+Drop Shanghai & No & Yes & Yes \\
+City FE / Year FE & Yes & Yes & Yes \\
+Observations & 1,998 & 1,389 & 1,794 \\
+Cities & 22 & 21 & 26 \\
+$M \times P$ cell $N$ & 67 & 31 & 42 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item \textit{Notes:} Column (1) repeats the preferred Top 60\\% Strict specification. Columns (2)--(3) drop Shanghai households. The attenuation after excluding Shanghai indicates that the differential is concentrated in the highest-restriction megacities represented in CFPS. City-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Appendix: Full Child-Age Gradient Estimates}
+\label{tab:cfps_reg2_mechanism_app}
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+Age bin & Coefficient & SE & $p$-value & $M\times$bin cell $N$ \\
+\midrule
+Ages 0--2 & 0.127** & 0.055 & 0.021 & 28 \\
+Ages 3--5 & 0.124* & 0.065 & 0.056 & 43 \\
+Ages 6--8 & 0.002 & 0.052 & 0.967 & 59 \\
+Ages 9--11 & 0.111* & 0.063 & 0.079 & 45 \\
+Ages 12--15 & 0.060 & 0.046 & 0.196 & 67 \\
+\midrule
+Observations & \multicolumn{4}{c}{1,998} \\
+Cities & \multicolumn{4}{c}{22} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item \textit{Notes:} Same sample construction as Table~\ref{tab:cfps_reg2_main} (Top 60\% Strict cities, respondents aged 25--50, full controls, city and year fixed effects). All five age-bin indicators and their interactions with migrant status enter jointly; the table reports the interaction coefficients plotted in Figure~\ref{fig:cfps_reg2_age_gradient}. City-clustered standard errors. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

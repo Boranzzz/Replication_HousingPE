@@ -1,0 +1,72 @@
+{
+  "font_file": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+  "font_family": "Times New Roman",
+  "mathtext_fontset": "stix",
+  "w_u": 1.0,
+  "a_r": 0.38602,
+  "rho": 0.94,
+  "pi": 0.5,
+  "sigma_ln_z": 0.729509,
+  "z_low": 0.37723513100698913,
+  "z_high": 1.6227648689930108,
+  "log_gap": 1.459018,
+  "q_central": 0.129,
+  "q_crit": 0.2316148257356712,
+  "q_axis": [
+    0.05,
+    0.45
+  ],
+  "q_empirical_band": [
+    0.12,
+    0.21
+  ],
+  "pi_axis_curve": [
+    0.2,
+    0.8
+  ],
+  "cities": {
+    "n_cities": 51,
+    "a_r_min": 0.25048800344732475,
+    "a_r_p25": 0.32867911236498343,
+    "a_r_p50": 0.386020337550919,
+    "a_r_p75": 0.47235195370287797,
+    "a_r_max": 0.632016539139814,
+    "ratio_p25": 2.1175815859767,
+    "ratio_p75": 3.0424839142064632,
+    "a_r_from_ratio_p75": 0.32867881250929104,
+    "a_r_from_ratio_p25": 0.47223682271432593
+  },
+  "housed_bequest_corner_pi": 0.21998919112053364,
+  "I_at_pi_0.2": 0.055652490834679186,
+  "I_at_pi_0.5": 0.07748159987373504,
+  "I_at_pi_0.8": 0.09352175916215266,
+  "I_at_a_r_min": 0.11652788257560126,
+  "I_at_a_r_max": 0.0073588071452800885,
+  "P_star_at_q_min": 0.18793196576221632,
+  "P_free_at_q_min": 0.04999999999999993,
+  "P_star_at_q_max": 0.28947140729494875,
+  "max_abs_identity_gap_q": 0.0,
+  "min_I_q": 0.0,
+  "min_I_pi": 0.055652490834679186,
+  "min_I_ar": 0.0073588071452800885,
+  "figure_q_fonts": {
+    "png": "fig05_rental_cost_sensitivity.png",
+    "pdf": "fig05_rental_cost_sensitivity.pdf",
+    "fonts": [
+      "STIXGeneral-Italic",
+      "STIXGeneral-Regular",
+      "STIXNonUnicode-Italic",
+      "TimesNewRomanPSMT"
+    ]
+  },
+  "figure_institutional_fonts": {
+    "png": "fig06_institutional_access_premium.png",
+    "pdf": "fig06_institutional_access_premium.pdf",
+    "fonts": [
+      "STIXGeneral-Italic",
+      "STIXGeneral-Regular",
+      "STIXNonUnicode-Italic",
+      "TimesNewRomanPSMT"
+    ]
+  }
+}

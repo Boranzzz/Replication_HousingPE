@@ -1,0 +1,50 @@
+[
+  {
+    "step": "calibration_tables",
+    "script": "code/03_calibration/solve_housing_valuation.py",
+    "status": "reproduced",
+    "exit_code": 0
+  },
+  {
+    "step": "calibration_figures",
+    "script": "code/03_calibration/make_publication_figures.py",
+    "status": "reproduced",
+    "exit_code": 0
+  },
+  {
+    "step": "rental_cost_comparison",
+    "script": "code/03_calibration/compare_rental_cost.py",
+    "status": "reproduced",
+    "exit_code": 0
+  },
+  {
+    "step": "city_regressions",
+    "script": "code/01_city_regression/estimate_city_regressions.py",
+    "status": "reproduced",
+    "exit_code": 0
+  },
+  {
+    "step": "city_loo_figure",
+    "script": "code/01_city_regression/plot_loo_city_trends.py",
+    "status": "reproduced",
+    "exit_code": 0
+  },
+  {
+    "step": "household_table",
+    "script": "code/02_household_regression/estimate_homeownership.py",
+    "status": "reproduced",
+    "exit_code": 0
+  },
+  {
+    "step": "household_latex",
+    "script": "code/02_household_regression/cfps_reg2_latex.py",
+    "status": "reproduced",
+    "exit_code": 0
+  },
+  {
+    "step": "household_age_gradient",
+    "script": "code/02_household_regression/estimate_age_gradient.py",
+    "status": "reproduced",
+    "exit_code": 0
+  }
+]

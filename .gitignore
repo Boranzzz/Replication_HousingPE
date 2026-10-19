@@ -1,0 +1,12 @@
+# Restricted inputs. Keep these on the local machine only.
+data/local_only/
+
+# Rebuilds of the CFPS analysis file contain household microdata.
+household/rebuild/
+
+# Caches
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints
+*.dta

@@ -1,0 +1,15 @@
+{
+  "nobs": 506,
+  "cities": 85,
+  "years": "2014-2019",
+  "table1_col1": -0.30617454378522635,
+  "twfe_controls": -0.023817199799031703,
+  "trend_full_rank": -0.5041563913392706,
+  "trend_se": 0.19317245206241762,
+  "trend_p": 0.009057471197666454,
+  "loo_min": -0.5646913555956091,
+  "loo_max": -0.3535767952139767,
+  "loo_all_negative": true,
+  "bootstrap_p_coefficient": 0.1023,
+  "bootstrap_p_t": 0.1179
+}

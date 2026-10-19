@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\caption{Robustness: Alternative High-Strict Thresholds}
+\label{tab:cfps_reg2_A2}
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+ & (1) & (2) & (3) & (4) \\
+ & Top 75\% Strict & Top 67\% Strict & Top 60\% Strict & Top 50\% Strict \\
+\midrule
+\multicolumn{5}{l}{\textit{Dependent variable:} OwnHouse} \\
+\midrule
+Migrant ($M$) & -0.264*** & -0.270*** & -0.241*** & -0.252*** \\
+ & (0.057) & (0.057) & (0.066) & (0.057) \\
+PreschoolAge ($P$) & -0.017 & -0.026 & -0.026 & -0.007 \\
+ & (0.023) & (0.022) & (0.023) & (0.030) \\
+$M \times P$ & 0.128** & 0.133*** & 0.126** & 0.116** \\
+ & (0.065) & (0.050) & (0.052) & (0.056) \\
+\midrule
+Controls & Yes & Yes & Yes & Yes \\
+Drop Shanghai & No & No & No & No \\
+City FE / Year FE & Yes & Yes & Yes & Yes \\
+Observations & 2,403 & 2,127 & 1,998 & 1,638 \\
+Cities & 27 & 24 & 22 & 18 \\
+$M \times P$ cell $N$ & 78 & 69 & 67 & 59 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item \textit{Notes:} All columns use PreschoolAge, the age 25--50 window, full controls, and city/year fixed effects. Cities are ranked by mean $\mathrm{Strict}=h(1+h_2)$. City-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
